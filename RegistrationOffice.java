@@ -25,18 +25,23 @@ public class RegistrationOffice {
 			break;
 		case 1:
 			student = new UndergraduateStudent(15, "Ece Hazneci", 2022, LocalDate.of(1998, 9, 29), "MECE", "IE");
+			break;
 
 		case 2:
 			student = new GraduateStudent(25, "Mustafa Hazneci", 2022, LocalDate.of(1998, 9, 29), "Computer Engineering", "Gül Sönmez", "Data Analysis");
+			break;
 
 		case 3:
 			student = new MasterStudent(48, "Zeynep Hazneci", 2022, LocalDate.of(1998, 9, 29), "Computer Science", "Akin Kaldiroglu", "Future of Java");
+			break;
 
 		case 4: 
 			student = new PhdStudent(32, "Oguz Hazneci", 2022, LocalDate.of(2000, 2, 10), "Computer Engineering", "Ahmet Yılmaz", "Game Theory", true);
+			break;
 			
 		case 5:
 			student = new VocationalStudent(28, "Barış Şahin",2022, LocalDate.of(1999, 3, 15), "Computer Engineering");	
+			break;
 		}		
 		return student;
 	}
